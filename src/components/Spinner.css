@@ -1,0 +1,33 @@
+.spinner {
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #25b09b;
+  --_m: 
+    conic-gradient(#0000 10%,#000),
+    linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  -webkit-mask-composite: source-out;
+          mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+
+@keyframes l3 {
+  to { transform: rotate(1turn); }
+}
+
+.t-spin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.load {
+  color: rgb(13, 13, 61);
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem;
+  font-weight: 600;
+}

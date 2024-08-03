@@ -1,0 +1,11 @@
+.navbar {
+    background-color: rgb(10, 10, 41);
+}
+
+.Heading {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}

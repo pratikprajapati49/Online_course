@@ -1,0 +1,8 @@
+.Card2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(36, 36, 68);
+}
