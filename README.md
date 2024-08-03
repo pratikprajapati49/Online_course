@@ -23,8 +23,8 @@ Online Courses is a React-based web application that showcases a collection of p
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/top-courses.git
-   cd top-courses
+   git clone https://github.com/pratikprajapati49/Online_course.git
+   cd Online_course
    ```
 
 2. Install the dependencies:
